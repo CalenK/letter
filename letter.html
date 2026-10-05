@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Messaging</title>
+</head>
+<body>
+  <h1 class="card-title">Write a letter!</h1>
+  <form>
+    <label for="messageInput">Enter message</label>
+    <input id="messageInput" type="text" name="messageInput">
+    <button type="submit">send</button>
+
+    <label for="nameInput">Enter name</label>
+    <input id="nameInput" type="text" name="nameInput">
+    <button type="submit">enter</button>     
+  </form>
+
+  <div class="row">
+    <div class="col-md-9">
+      <div class="card">
+        <div class="card-body">
+          <div id="message" class="hidden">
+            <h1>chat</h1>
+            <p>
+              Dear Mister <span id="name">_________________</span> <span id="sent">lorem ipsum curabitur maecenas accumsan pellentesque justo donec porttitor feugiat hendrerit morbi quisque vestibulum volutpat interdum, vestibulum interdum curabitur suspendisse elementum posuere malesuada congue bibendum ullamcorper pharetra etiam.</span>
+            </p>
+          </div>
+
+          <div id="letter" class="hidden">
+            <p>
+              <span id="response">______________________________</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>        
+</body>  
+</html>
